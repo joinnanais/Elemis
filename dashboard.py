@@ -18,7 +18,7 @@ st.set_page_config(
 )
 
 #Create a file path
-csv_file_path = 'C:\\Users\\joinna.patiag\\OneDrive - Elemis Ltd\\Documents\\Scripts\\Sprint 13\\Sample - Superstore.csv'
+csv_file_path = 'https://github.com/joinnanais/Elemis/blob/main/Sample%20-%20Superstore.csv'
 
 #Read csv file and select encoding 
 data = pd.read_csv(csv_file_path, encoding='latin1')
